@@ -1,0 +1,75 @@
+{
+    "delegatecallInInitcodeToEmptyContract": {
+        "_info": {
+            "comment": "",
+            "filling-rpc-server": "",
+            "filling-tool-version": "",
+            "filledWith": "CoreGeth-1.12.9-unstable-f4059ddd82d975bdc54fa648e5422a80172161cb",
+            "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
+            "source": "src/GeneralStateTestsFiller/stDelegatecallTestHomestead/delegatecallInInitcodeToEmptyContractFiller.json",
+            "sourceHash": "ecafd79e02dc5160e661f90b6ee77c731efffd4c00e4c3c99d51728f8fedd926"
+        },
+        "env": {
+            "currentCoinbase": "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentDifficulty": "0x20000",
+            "currentRandom": null,
+            "currentGasLimit": "0xf4240",
+            "currentNumber": "0x1",
+            "currentTimestamp": "0x3e8",
+            "currentBaseFee": null
+        },
+        "pre": {
+            "0x1000000000000000000000000000000000000000": {
+                "code": "0x7f604060006040600073945304eb96065b2a98b57a48a06ae28d285a71b56201866000527fa0f4600055000000000000000000000000000000000000000000000000000000602052604060006001f0",
+                "balance": "0x2710"
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "balance": "0x2386f26fc10000"
+            }
+        },
+        "transaction": {
+            "gasPrice": "0x1",
+            "maxFeePerGas": null,
+            "maxPriorityFeePerGas": null,
+            "nonce": "0x0",
+            "to": "0x1000000000000000000000000000000000000000",
+            "data": [
+                "0x"
+            ],
+            "gasLimit": [
+                "0x6e9d9"
+            ],
+            "value": [
+                "0x00"
+            ],
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "out": "0x",
+        "post": {
+            "ETC_Agharta": [
+                {
+                    "hash": "158d67812da0bb53249d5b1eef7a3afd6d49d30a48a5e44b8fb5adc04b7f24b2",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ],
+            "ETC_Atlantis": [
+                {
+                    "hash": "158d67812da0bb53249d5b1eef7a3afd6d49d30a48a5e44b8fb5adc04b7f24b2",
+                    "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0x",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    }
+}
