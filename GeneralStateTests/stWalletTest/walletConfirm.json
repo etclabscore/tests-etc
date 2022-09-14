@@ -4,19 +4,19 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-f4059ddd82d975bdc54fa648e5422a80172161cb",
+            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stWalletTest/walletConfirmFiller.json",
             "sourceHash": "683623dc8238f487d8e949f9cc4590acdf7f116d577d6f47fc86cd45e600d3e3"
         },
         "env": {
-            "currentCoinbase": "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
             "currentDifficulty": "0x20000",
-            "currentRandom": null,
             "currentGasLimit": "0x5f5e100",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa"
+            "currentBaseFee": "0xa",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "pre": {
             "0x3fb1cd2cd96c6d5c0b5eb3322d807b34482481d4": {
@@ -48,8 +48,6 @@
         },
         "transaction": {
             "gasPrice": "0xa",
-            "maxFeePerGas": null,
-            "maxPriorityFeePerGas": null,
             "nonce": "0x0",
             "to": "0xec0e71ad0a90ffe1909d27dac207f7680abba42d",
             "data": [
@@ -61,9 +59,9 @@
             "value": [
                 "0x00"
             ],
-            "secretKey": "0xa95defe70ebea7804f9c3be42d20d24375e2a92b9d9666b832069c5f3cd423dd"
+            "secretKey": "0xa95defe70ebea7804f9c3be42d20d24375e2a92b9d9666b832069c5f3cd423dd",
+            "sender": "0x3fb1cd2cd96c6d5c0b5eb3322d807b34482481d4"
         },
-        "out": "0x",
         "post": {
             "ETC_Magneto": [
                 {

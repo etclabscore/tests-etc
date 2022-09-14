@@ -4,19 +4,19 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-f4059ddd82d975bdc54fa648e5422a80172161cb",
+            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stQuadraticComplexityTest/Call50000_rip160Filler.json",
             "sourceHash": "1fa657ac6bba8813b5c774007041a41d52bd1d4bf2011f57bc7b71cea5fc8b6b"
         },
         "env": {
-            "currentCoinbase": "b94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "currentCoinbase": "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b",
             "currentDifficulty": "0x20000",
-            "currentRandom": null,
             "currentGasLimit": "0xe9f2bf40",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa"
+            "currentBaseFee": "0xa",
+            "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
@@ -29,8 +29,6 @@
         },
         "transaction": {
             "gasPrice": "0xa",
-            "maxFeePerGas": null,
-            "maxPriorityFeePerGas": null,
             "nonce": "0x0",
             "to": "0xbbbf5374fce5edbc8e2a8697c15331677e6ebf0b",
             "data": [
@@ -43,9 +41,9 @@
             "value": [
                 "0x0a"
             ],
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
         },
-        "out": "0x",
         "post": {
             "ETC_Magneto": [
                 {

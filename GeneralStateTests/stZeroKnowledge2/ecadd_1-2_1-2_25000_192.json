@@ -4,19 +4,19 @@
             "comment": "Puts the points (1, 2) and (1, 2) into the ECADD precompile, truncating or expanding the input data to 192 bytes. Gives the execution 25000 bytes",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-f4059ddd82d975bdc54fa648e5422a80172161cb",
+            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stZeroKnowledge2/ecadd_1-2_1-2_25000_192Filler.json",
             "sourceHash": "ae731c0f3270cae0d79a926af9ad3c5bd80c37292a6a519841ca745133cac965"
         },
         "env": {
-            "currentCoinbase": "3535353535353535353535353535353535353535",
+            "currentCoinbase": "0x3535353535353535353535353535353535353535",
             "currentDifficulty": "0x20000",
-            "currentRandom": null,
             "currentGasLimit": "0x5f5e100",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa"
+            "currentBaseFee": "0xa",
+            "previousHash": "0xc6745cf3cada515bbfb9573261c82547e0b8f9e3d5dd382e464704a84e47b5ad"
         },
         "pre": {
             "0x0000000000000000000000000000000000000000": {
@@ -88,8 +88,6 @@
         },
         "transaction": {
             "gasPrice": "0xa",
-            "maxFeePerGas": null,
-            "maxPriorityFeePerGas": null,
             "nonce": "0x1e",
             "to": "0xc305c901078781c232a2a521c2af7980f8385ee9",
             "data": [
@@ -104,9 +102,9 @@
             "value": [
                 "0x00"
             ],
-            "secretKey": "0x044852b2a670ade5407e78fb2863c51de9fcb96542a07186fe3aeda6bb8a116d"
+            "secretKey": "0x044852b2a670ade5407e78fb2863c51de9fcb96542a07186fe3aeda6bb8a116d",
+            "sender": "0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1"
         },
-        "out": "0x",
         "post": {
             "ETC_Magneto": [
                 {

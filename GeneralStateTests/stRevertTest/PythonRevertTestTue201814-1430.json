@@ -4,19 +4,19 @@
             "comment": "A random test that had failed in Python ethereum implementation",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-f4059ddd82d975bdc54fa648e5422a80172161cb",
+            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRevertTest/PythonRevertTestTue201814-1430Filler.json",
             "sourceHash": "72997f2e80acac4e8f14b07cadb68507852abb95c11f2701eaf56f43d2c72b1e"
         },
         "env": {
-            "currentCoinbase": "c94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "currentCoinbase": "0xc94f5374fce5edbc8e2a8697c15331677e6ebf0b",
             "currentDifficulty": "0x20000",
-            "currentRandom": null,
             "currentGasLimit": "0x14a0583da74c9c",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa"
+            "currentBaseFee": "0xa",
+            "previousHash": "0xbe3aaa6657719af4fbf6b9741d3c2c1eca7446e7b87ce36eb18a407fca527573"
         },
         "pre": {
             "0x1000000000000000000000000000000000000000": {
@@ -45,8 +45,6 @@
         },
         "transaction": {
             "gasPrice": "0xa",
-            "maxFeePerGas": null,
-            "maxPriorityFeePerGas": null,
             "nonce": "0x0",
             "to": "0xd94f5374fce5edbc8e2a8697c15331677e6ebf0b",
             "data": [
@@ -58,9 +56,9 @@
             "value": [
                 "0x254ffcc0"
             ],
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
         },
-        "out": "0x",
         "post": {
             "ETC_Magneto": [
                 {

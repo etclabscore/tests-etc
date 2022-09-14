@@ -4,19 +4,18 @@
             "comment": "This is a canon example of a test found by fuzzing with EVMlab, demoing how a suicide-created-but-empty account has a non-zero codehash in geth",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-f4059ddd82d975bdc54fa648e5422a80172161cb",
+            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stBugs/randomStatetestDEFAULT-Tue_07_58_41-15153-575192Filler.json",
             "sourceHash": "8722c54dd1f693a0ea9bece116d7891cb0be201cc4025a1238bd16ddb3577006"
         },
         "env": {
-            "currentCoinbase": "1000000000000000000000000000000000000000",
+            "currentCoinbase": "0x1000000000000000000000000000000000000000",
             "currentDifficulty": "0x20000",
-            "currentRandom": null,
             "currentGasLimit": "0x1312d00",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": null
+            "previousHash": "0x5fa368f13facaec6bf82d19c5d075fd3386be8a4265ed2d90c29b312a09b6d9d"
         },
         "pre": {
             "0x000000000000000000000000000000000000dead": {
@@ -36,8 +35,6 @@
         },
         "transaction": {
             "gasPrice": "0x1",
-            "maxFeePerGas": null,
-            "maxPriorityFeePerGas": null,
             "nonce": "0x1c",
             "to": "0x1000000000000000000000000000000000000000",
             "data": [
@@ -49,9 +46,9 @@
             "value": [
                 "0x00"
             ],
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0x0000000000000000000000000000000000000000"
         },
-        "out": "0x",
         "post": {
             "ETC_Agharta": [
                 {

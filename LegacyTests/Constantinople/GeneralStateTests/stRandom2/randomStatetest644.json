@@ -4,19 +4,18 @@
             "comment": "Geth Failed this test on Frontier and Homestead",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-f4059ddd82d975bdc54fa648e5422a80172161cb",
+            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRandom2/randomStatetest644Filler.json",
             "sourceHash": "496fb7601293eedc07ec15597e8ec41cd42fd0c38f17ca4197e3ca721dca0c86"
         },
         "env": {
-            "currentCoinbase": "ffffffffffffffffffffffffffffffffffffffff",
+            "currentCoinbase": "0xffffffffffffffffffffffffffffffffffffffff",
             "currentDifficulty": "0x20000",
-            "currentRandom": null,
             "currentGasLimit": "0x60ca5bfb0d6208",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": null
+            "previousHash": "0x054465e8fe490060bdc666e92e53b48a53cc8c0607d1c16d757d6cc155b1c163"
         },
         "pre": {
             "0x1000000000000000000000000000000000000000": {
@@ -40,8 +39,6 @@
         },
         "transaction": {
             "gasPrice": "0x2",
-            "maxFeePerGas": null,
-            "maxPriorityFeePerGas": null,
             "nonce": "0x0",
             "to": "0x0000000000000000000000000000000000000001",
             "data": [
@@ -53,9 +50,9 @@
             "value": [
                 "0xf3107ce3"
             ],
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0x0000000000000000000000000000000000000000"
         },
-        "out": "0x",
         "post": {
             "ETC_Agharta": [
                 {

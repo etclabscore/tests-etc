@@ -4,19 +4,18 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-f4059ddd82d975bdc54fa648e5422a80172161cb",
+            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRandom/randomStatetest184Filler.json",
             "sourceHash": "98d879817e0ff7a43250e9f4e7b8329f6990a4d46d0c5569b21ae3512466d91e"
         },
         "env": {
-            "currentCoinbase": "6d6e40885310545835a5b582dbc23ef026404bda",
+            "currentCoinbase": "0x6d6e40885310545835a5b582dbc23ef026404bda",
             "currentDifficulty": "0x20000",
-            "currentRandom": null,
             "currentGasLimit": "0x102b7fe66d",
             "currentNumber": "0x1",
             "currentTimestamp": "0x2710",
-            "currentBaseFee": null
+            "previousHash": "0xa8228e05d900b890136bcc55628b479e172795042a90e18b673189b5f3a672fc"
         },
         "pre": {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
@@ -34,8 +33,6 @@
         },
         "transaction": {
             "gasPrice": "0x1c",
-            "maxFeePerGas": null,
-            "maxPriorityFeePerGas": null,
             "nonce": "0x0",
             "to": "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
             "data": [
@@ -47,9 +44,9 @@
             "value": [
                 "0x6d1dd024"
             ],
-            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+            "sender": "0x0000000000000000000000000000000000000000"
         },
-        "out": "0x",
         "post": {
             "ETC_Agharta": [
                 {

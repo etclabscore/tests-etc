@@ -4,19 +4,18 @@
             "comment": "Puts the points (10744596414106452074759370245733544594153395043370666422502510773307029471145, 848677436511517736191562425154572367705380862894644942948681172815252343932) and (10744596414106452074759370245733544594153395043370666422502510773307029471145, 21039565435327757486054843320102702720990930294403178719740356721829973864651) into the ECADD precompile, truncating or expanding the input data to 192 bytes. Gives the execution 25000 bytes",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-f4059ddd82d975bdc54fa648e5422a80172161cb",
+            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stZeroKnowledge2/ecadd_1145-3932_1145-4651_25000_192Filler.json",
             "sourceHash": "9b37312ab7bd11ac76f2aa83334a74fcbdb90ec970e1658e00f0df9c4888c390"
         },
         "env": {
-            "currentCoinbase": "3535353535353535353535353535353535353535",
+            "currentCoinbase": "0x3535353535353535353535353535353535353535",
             "currentDifficulty": "0x20000",
-            "currentRandom": null,
             "currentGasLimit": "0x5f5e100",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": null
+            "previousHash": "0xc6745cf3cada515bbfb9573261c82547e0b8f9e3d5dd382e464704a84e47b5ad"
         },
         "pre": {
             "0x0000000000000000000000000000000000000000": {
@@ -88,8 +87,6 @@
         },
         "transaction": {
             "gasPrice": "0x1",
-            "maxFeePerGas": null,
-            "maxPriorityFeePerGas": null,
             "nonce": "0x20",
             "to": "0xc305c901078781c232a2a521c2af7980f8385ee9",
             "data": [
@@ -104,9 +101,9 @@
             "value": [
                 "0x00"
             ],
-            "secretKey": "0x044852b2a670ade5407e78fb2863c51de9fcb96542a07186fe3aeda6bb8a116d"
+            "secretKey": "0x044852b2a670ade5407e78fb2863c51de9fcb96542a07186fe3aeda6bb8a116d",
+            "sender": "0x0000000000000000000000000000000000000000"
         },
-        "out": "0x",
         "post": {
             "ETC_Agharta": [
                 {
