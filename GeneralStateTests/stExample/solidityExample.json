@@ -4,7 +4,7 @@
             "comment": "An example test for using solidity contracts in the test",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExample/solidityExampleFiller.yml",
             "sourceHash": "59c914a72f92cdd7a4cd9353576a63ce6877daebc8472017e05842057a9cfd65"

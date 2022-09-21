@@ -4,7 +4,7 @@
             "comment": "EXTCODEHASH/EXTCODESIZE of an account created then deleted in same transaction",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashCreatedAndDeletedAccountFiller.json",
             "sourceHash": "ee152cae68b3cb6ec88aad0ba375c095c51f38c0442eaf5dfffcb9b35a71f6d0"

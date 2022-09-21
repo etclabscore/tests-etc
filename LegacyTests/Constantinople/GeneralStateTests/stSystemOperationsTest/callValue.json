@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSystemOperationsTest/callValueFiller.json",
             "sourceHash": "2eac18398c946ee11523daab6649d86b080d4d6d38a62e22fc6217103171a198"

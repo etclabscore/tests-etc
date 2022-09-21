@@ -4,7 +4,7 @@
             "comment": "https://github.com/ethereum/tests/issues/558 (subcall/opcode return more data then expected)",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/subcallReturnMoreThenExpectedFiller.yml",
             "sourceHash": "84c08391a9b2e272235e3605d2f15b15c9b6e24d9899929056308347b723cd41"

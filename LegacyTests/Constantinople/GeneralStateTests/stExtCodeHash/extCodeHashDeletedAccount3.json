@@ -4,7 +4,7 @@
             "comment": "3) Call creates Account A (0x95ab1c33798981918da6d27056f70376674878d2)\nCall to Account B do the following:\n- stores Account A code hash to 1\n- stores Account A code size to 2\n- stores Account A code to 3\n- Run selfdestruct on A\n- stores Account A code hash to 4\n- stores Account A code size to 5\n- stores Account A code to 6\n",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccount3Filler.yml",
             "sourceHash": "606da01e256b9180ed00b86766ebc8879511096b9b905fbb6661c19cc207ef37"

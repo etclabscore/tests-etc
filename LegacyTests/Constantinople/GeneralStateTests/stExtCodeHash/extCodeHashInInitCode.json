@@ -4,7 +4,7 @@
             "comment": "EXTCODEHASH/EXTCODESIZE of an account during init code(creation code)",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashInInitCodeFiller.json",
             "sourceHash": "cd95047d1dd1254c52d926e38e500dd5e32ae8137f5269b34892c23c27b60454"

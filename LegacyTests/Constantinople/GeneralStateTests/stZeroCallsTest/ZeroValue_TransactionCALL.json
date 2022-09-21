@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stZeroCallsTest/ZeroValue_TransactionCALLFiller.json",
             "sourceHash": "bff2f5a01c3a355820891925de992fb30e68af91a978f026bcd082cec2c65b87"

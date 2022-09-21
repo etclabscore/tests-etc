@@ -4,7 +4,7 @@
             "comment": "change X -\u003e 0 -\u003e 0",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSStoreTest/sstore_Xto0to0Filler.json",
             "sourceHash": "271baa0d5607ed345e75941efdf8da3e44058a2054e9e1b5f164e9553e837906"

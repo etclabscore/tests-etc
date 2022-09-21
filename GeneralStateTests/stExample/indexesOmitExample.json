@@ -4,7 +4,7 @@
             "comment": "expect section set -indexes field by default equal to -1",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExample/indexesOmitExampleFiller.yml",
             "sourceHash": "7c15ae5f417e229c0a6a3be5d7f316225affb3b98e497fcbfc19bb630a3b6a0e"

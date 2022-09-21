@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stStaticCall/static_callcallcall_000_SuicideEndFiller.json",
             "sourceHash": "3f381ad8f7280dd8f4bc5572bf6a22c7b0119c4a33c17097fcad34ac0691d50f"
