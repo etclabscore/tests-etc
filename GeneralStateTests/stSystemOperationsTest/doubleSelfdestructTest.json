@@ -4,7 +4,7 @@
             "comment": "The first test case required here https://github.com/ethereum/tests/issues/431#issue-306081539 .\nInvoked Solidity 0.4.21 with solc --bin-runtime --optimize\ncontract DoubleSelfdestructTest {\n  address constant B1 = 0x1;\n  address constant B2 = 0x2;\n  function remoteSelfdestruct() external {\n    selfdestruct(B2);\n  }\n  function() external payable {\n    this.remoteSelfdestruct();\n    selfdestruct(B1);\n  }\n}\nBecause gasprice is 0 and mining reward is 0, the mining account is created as empty in the post state. (imitating blockchain rules)\n",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
+            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSystemOperationsTest/doubleSelfdestructTestFiller.yml",
             "sourceHash": "f8fa3bc7e678cc66041794677fef7e911fa8e5f8143f844f91142b24e7f6a0c0"
@@ -15,7 +15,6 @@
             "currentGasLimit": "0x2540be400",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa",
             "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "pre": {

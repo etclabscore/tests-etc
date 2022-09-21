@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-4d59a861107c8232d6896811c48f229d30087be4",
+            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreateTest/CREATE_AcreateB_BSuicide_BStoreFiller.json",
             "sourceHash": "cab8b99c5cef555e79b2f91acc4f8e8025cd6747a5307aca474e9996c8cac248"
@@ -15,7 +15,6 @@
             "currentGasLimit": "0x989680",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa",
             "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "pre": {
