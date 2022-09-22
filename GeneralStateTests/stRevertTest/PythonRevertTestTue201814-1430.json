@@ -4,7 +4,7 @@
             "comment": "A random test that had failed in Python ethereum implementation",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRevertTest/PythonRevertTestTue201814-1430Filler.json",
             "sourceHash": "72997f2e80acac4e8f14b07cadb68507852abb95c11f2701eaf56f43d2c72b1e"
@@ -15,7 +15,6 @@
             "currentGasLimit": "0x14a0583da74c9c",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa",
             "previousHash": "0xbe3aaa6657719af4fbf6b9741d3c2c1eca7446e7b87ce36eb18a407fca527573"
         },
         "pre": {

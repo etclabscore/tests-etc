@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRandom2/randomStatetest642Filler.json",
             "sourceHash": "62862b60f0806eb39e5ab5b641bc766e331fb8fe06ebca592c2ef098c94cc570"
@@ -15,7 +15,6 @@
             "currentGasLimit": "0x406fbe7b1f887c",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa",
             "previousHash": "0xe6f393a7fe05c1a508c668362ec73ed272c01d346a04ebb6cd34e62325282f05"
         },
         "pre": {

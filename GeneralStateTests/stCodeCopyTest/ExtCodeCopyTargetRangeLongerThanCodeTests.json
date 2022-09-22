@@ -4,7 +4,7 @@
             "comment": "Uses EXTCODECOPY to copy 32 bytes of code into a 64 byte range of memory and ensures that the last 32 bytes of the memory range are zeroed out",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCodeCopyTest/ExtCodeCopyTargetRangeLongerThanCodeTestsFiller.json",
             "sourceHash": "e2c03d4c0e0c75ee21799c8b4baaa4dbc2525e01ad2f660c310ab967821a18f6"
@@ -15,7 +15,6 @@
             "currentGasLimit": "0x7fffffffffffffff",
             "currentNumber": "0x28d138",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa",
             "previousHash": "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "pre": {

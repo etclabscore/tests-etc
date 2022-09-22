@@ -4,7 +4,7 @@
             "comment": "Puts the point (11999875504842010600789954262886096740416429265635183817701593963271973497827, 11843594000332171325303933275547366297934113019079887694534126289021216356598) and the factor 2 into the ECMUL precompile, truncating or expanding the input data to 128 bytes. Gives the execution 28000 bytes",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stZeroKnowledge/ecmul_7827-6598_2_28000_128Filler.json",
             "sourceHash": "b618be1788ed8498af75b37c1b2789548ddb1722cb2e75b0760fb566e8f9e840"
@@ -15,7 +15,6 @@
             "currentGasLimit": "0x5f5e100",
             "currentNumber": "0x1",
             "currentTimestamp": "0x3e8",
-            "currentBaseFee": "0xa",
             "previousHash": "0xc6745cf3cada515bbfb9573261c82547e0b8f9e3d5dd382e464704a84e47b5ad"
         },
         "pre": {

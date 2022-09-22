@@ -4,7 +4,7 @@
             "comment": "returndatasize_following_successful_create for create2",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-ab16c56768f0284ab56a30aac9550d3ebdc45901",
+            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/returndatasize_following_successful_createFiller.json",
             "sourceHash": "67aabdbbeb2e5a938bbeb190c0d7d45c7792eb8f2aac3a657abd3bc6dcdf7c89"
