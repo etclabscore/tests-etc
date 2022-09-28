@@ -1,6 +1,6 @@
 {
-    "difficultyETC": {
-        "ETC": {
+    "difficultyMystique": {
+        "Mystique": {
             "difficulty_n10500838_t105_ufalse": {
                 "parentTimestamp": "0x822fdbb",
                 "parentDifficulty": "0xc80000",
