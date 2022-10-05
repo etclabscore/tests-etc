@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stMemExpandingEIP150Calls/CallGoesOOGOnSecondLevelWithMemExpandingCallsFiller.json",
             "sourceHash": "4f7af432f23823956dd6d662a40e186ba91cb05d43d71c7c8332c4f3d1b5d998"
@@ -20,18 +20,23 @@
         "pre": {
             "0x1000000000000000000000000000000000000110": {
                 "code": "0x5a60085560ff60ff60ff60ff6000731000000000000000000000000000000000000111620927c0f1600955",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000111": {
                 "code": "0x5a600855600060006000f050600060006000f0505a6009555a600a55",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a51000"
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x5a60085560ff60ff60ff60ff6000731000000000000000000000000000000000000110620927c0f1600955",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

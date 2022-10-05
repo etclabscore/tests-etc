@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stMemExpandingEIP150Calls/NewGasPriceForCodesWithMemExpandingCallsFiller.json",
             "sourceHash": "33b26d04719f87f215a669d7fb46739fd3965f9a15a6f459f8c8cd5f9bd23daf"
@@ -20,21 +20,26 @@
         "pre": {
             "0x1000000000000000000000000000000000000010": {
                 "code": "0x1122334455667788991011121314151617181920212223242526272829303132",
-                "balance": "0x6f"
+                "balance": "0x6f",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000011": {
                 "code": "0x6011606455",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a5100000"
+                "code": "0x",
+                "balance": "0xe8d4a5100000",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x7310000000000000000000000000000000000000103b6001556014600060007310000000000000000000000000000000000000103c60005160025560005460045560ff60ff60ff60ff6001731000000000000000000000000000000000000011617530f160055560ff60ff60ff60ff6001731000000000000000000000000000000000000011617530f260065560ff60ff60ff60ff731000000000000000000000000000000000000011617530f460075560ff60ff60ff60ff6000731000000000000000000000000000000000000013617530f160085573a94f5374fce5edbc8e2a8697c15331677e6ebf0b316003555a600a55",
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000000": "0x0000000000000000000000000000000000000000000000000000000000000012"
                 },
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

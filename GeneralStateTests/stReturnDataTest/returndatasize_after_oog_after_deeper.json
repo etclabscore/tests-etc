@@ -4,7 +4,7 @@
             "comment": "transaction calls A (CALL B(CALL C(RETURN) OOG) 'check buffers')",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/returndatasize_after_oog_after_deeperFiller.json",
             "sourceHash": "94c77824cfc9ada660015550e65b259a0d823749683df08b580e5b4a905ead39"
@@ -19,7 +19,9 @@
         },
         "pre": {
             "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6": {
-                "balance": "0x1000000000"
+                "code": "0x",
+                "balance": "0x1000000000",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000001": {
                 "code": "0x60206000600060006000731000000000000000000000000000000000000002620186a0f16002553d60005560005160015500",
@@ -28,18 +30,23 @@
                     "0x0000000000000000000000000000000000000000000000000000000000000001": "0x00000000000000000000000000000000000000000000000000000000ffffffff",
                     "0x0000000000000000000000000000000000000000000000000000000000000002": "0x00000000000000000000000000000000000000000000000000000000ffffffff"
                 },
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000002": {
                 "code": "0x6000600060006000600073bb00000000000000000000000000000000000000620186a0f1505b60011560345760016000556025565b00",
-                "balance": "0x6400000000"
+                "balance": "0x6400000000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x100000000000"
+                "code": "0x",
+                "balance": "0x100000000000",
+                "nonce": "0x0"
             },
             "0xbb00000000000000000000000000000000000000": {
                 "code": "0x60ff60005260206000f300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

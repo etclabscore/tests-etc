@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashNonExistingAccountFiller.yml",
             "sourceHash": "7865f46abbb7b72d8ff15c01579f719a790d6e49cf93355383e27cc153710746"
@@ -20,18 +20,23 @@
         "pre": {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
                 "code": "0x6020600060006000600073deadbeef00000000000000000000000000000000620249f0f1506020600060003e6000516000556020600060006000600073aeadbeef00000000000000000000000000000000620249f0f1506020600060003e600051600155",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xaeadbeef00000000000000000000000000000000": {
                 "code": "0x73deadbeef000000000000000000000000000000013b60005260206000f3",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xdeadbeef00000000000000000000000000000000": {
                 "code": "0x73deadbeef000000000000000000000000000000013f60005260206000f3",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

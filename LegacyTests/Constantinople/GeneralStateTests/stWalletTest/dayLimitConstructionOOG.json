@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stWalletTest/dayLimitConstructionOOGFiller.json",
             "sourceHash": "8d7611bcd23432950608a18b4a29f9961ca066cc5cd04b0f7399d9b8c21c1335"
@@ -19,6 +19,7 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
                 "balance": "0xde0b6b3a75ef08f",
                 "nonce": "0x1"
             }

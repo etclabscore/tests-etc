@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stWalletTest/walletChangeOwnerRemovePendingTransactionFiller.json",
             "sourceHash": "9823b3b03fa21f7a2267edc0275022808dee097567a3f6c1b9ba47c07fd88502"
@@ -19,9 +19,12 @@
         },
         "pre": {
             "0x3fb1cd2cd96c6d5c0b5eb3322d807b34482481d4": {
-                "balance": "0x5af3107a4000"
+                "code": "0x",
+                "balance": "0x5af3107a4000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
                 "balance": "0xde0b6b3a75ef08f",
                 "nonce": "0x1"
             },
@@ -42,7 +45,8 @@
                     "0x915023a2112bb78c86fa558abc0217ea6818d13895b90ce6be233397f55eb1d1": "0x0000000000000000000000000000000000000000000000000000000000000009",
                     "0xd3e69d8c7f41f7aeaf8130ddc53047aeee8cb46a73d6bae86b7e7d6bf8312e6b": "0x0000000000000000000000000000000000000000000000000000000000000002"
                 },
-                "balance": "0x64"
+                "balance": "0x64",
+                "nonce": "0x0"
             }
         },
         "transaction": {

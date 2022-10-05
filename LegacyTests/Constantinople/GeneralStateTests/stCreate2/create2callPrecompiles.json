@@ -4,7 +4,7 @@
             "comment": "CALL precompiles during init code of CREATE2 contract ",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/create2callPrecompilesFiller.json",
             "sourceHash": "0dcd6d7b5819f61399ecfba9a67b7518c92c426866bd5b599516c184d194e51c"
@@ -19,15 +19,19 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xaddf5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x600035600052602035602052604035604052606035606052604060c860806000600060066207a120f260005560c85160015560e851600255",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x60003560005260203560205260403560405260603560605260803560805260a03560a05260c03560c052604061012c60806000600060066207a120f2600055604061019060606080600060076207a120f260015561012c51600a5561014c51600b55610190516014556101b051601555601454600a5414600255601554600b5414600355",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

@@ -4,7 +4,7 @@
             "comment": "contract A calls itself. In the sub-call, storage is modified, the calls returns successfully. After that, storage is modified again and then an exception occurs.  0xc0406226 == sha(run())",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRevertTest/RevertRemoteSubCallStorageOOGFiller.yml",
             "sourceHash": "036c6d833a3f2e2774ba3a384e2db9b33cc4646c877a8304074f2fadb0547397"
@@ -23,10 +23,13 @@
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000002": "0x00000000000000000000000000000000000000000000000000000000000000ff"
                 },
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a51000"
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

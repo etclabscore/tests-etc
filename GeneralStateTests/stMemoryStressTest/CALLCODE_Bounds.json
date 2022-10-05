@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stMemoryStressTest/CALLCODE_BoundsFiller.json",
             "sourceHash": "b7580638b1fe232799a973b173355883532eb0b72f35c6087ef6dde8edd9b477"
@@ -20,14 +20,18 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x600060006000600060007310000000000000000000000000000000000000016707fffffffffffffff250630fffffff6000630fffffff600060007310000000000000000000000000000000000000016707fffffffffffffff25063ffffffff600063ffffffff600060007310000000000000000000000000000000000000016707fffffffffffffff2506000630fffffff6000630fffffff60007310000000000000000000000000000000000000016707fffffffffffffff250600063ffffffff600063ffffffff60007310000000000000000000000000000000000000016707fffffffffffffff250600067ffffffffffffffff600067ffffffffffffffff60007310000000000000000000000000000000000000016707fffffffffffffff25060006fffffffffffffffffffffffffffffffff60006fffffffffffffffffffffffffffffffff60007310000000000000000000000000000000000000016707fffffffffffffff25060007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff60007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff60007310000000000000000000000000000000000000016707fffffffffffffff200",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000001": {
                 "code": "0x60005460010160005500",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                "code": "0x",
+                "balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "nonce": "0x0"
             }
         },
         "transaction": {

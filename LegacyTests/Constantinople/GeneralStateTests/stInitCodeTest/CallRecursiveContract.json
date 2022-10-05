@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stInitCodeTest/CallRecursiveContractFiller.json",
             "sourceHash": "cc2c74fbb30932a9418b54a69474af6469ce4b387dad46a1e36df61a85ece5b8"
@@ -24,7 +24,9 @@
                 "nonce": "0x28"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xf4240"
+                "code": "0x",
+                "balance": "0xf4240",
+                "nonce": "0x0"
             }
         },
         "transaction": {

@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/VMTests/vmLogTest/log4Filler.yml",
             "sourceHash": "45c742181528cc9913440e55a541af5653c9c64c6b44ae0f230787d79b177fce",
@@ -32,53 +32,66 @@
         "pre": {
             "0x0000000000000000000000000000000000000100": {
                 "code": "0x600060006000600060006000a461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000101": {
                 "code": "0x7faabbffffffffffffffffffffffffffffffffffffffffffffffffffffffffccdd600052600060006000600060016001600003a461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000102": {
                 "code": "0x7faabbffffffffffffffffffffffffffffffffffffffffffffffffffffffffccdd600052600060006000600060016000036001a461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000103": {
                 "code": "0x7faabbffffffffffffffffffffffffffffffffffffffffffffffffffffffffccdd600052600060006000600060006001a461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000104": {
                 "code": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff600052600060006000600060206000a461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000105": {
                 "code": "0x7faabbffffffffffffffffffffffffffffffffffffffffffffffffffffffffccdd600052600060006000600060016000a461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000106": {
                 "code": "0x7faabbffffffffffffffffffffffffffffffffffffffffffffffffffffffffccdd60005260006000600060006001601fa461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000107": {
                 "code": "0x7faabbffffffffffffffffffffffffffffffffffffffffffffffffffffffffccdd6000523360006000600060206000a461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000108": {
                 "code": "0x60ff60005360016000036001600003600160000360016000036001601fa461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000109": {
                 "code": "0x7faabbffffffffffffffffffffffffffffffffffffffffffffffffffffffffccdd600052585858586001601fa461600d60005500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x100000000000"
+                "code": "0x",
+                "balance": "0x100000000000",
+                "nonce": "0x0"
             },
             "0xcccccccccccccccccccccccccccccccccccccccc": {
                 "code": "0x6000600060006000600435610100015af400",
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000000": "0x0000000000000000000000000000000000000000000000000000000000000bad"
                 },
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             }
         },
         "transaction": {

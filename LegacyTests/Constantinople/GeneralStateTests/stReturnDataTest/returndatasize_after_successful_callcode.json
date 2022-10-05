@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/returndatasize_after_successful_callcodeFiller.json",
             "sourceHash": "c4b2e3d1cc5d63ea14ac6ed9ace745e2d20f683da687eb4df2b9c9dcac36d4f5"
@@ -20,14 +20,18 @@
         "pre": {
             "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6": {
                 "code": "0x6000600060006000600073a94f5374fce5edbc8e2a8697c15331677e6ebf0b61ea60f2503d600055",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff60005260066000f3",
-                "balance": "0x6400000000"
+                "balance": "0x6400000000",
+                "nonce": "0x0"
             },
             "0xdcc5ba93a1ed7e045690d722f2bf460a51c61415": {
-                "balance": "0x6400000000"
+                "code": "0x",
+                "balance": "0x6400000000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

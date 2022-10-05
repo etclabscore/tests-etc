@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stStaticCall/static_callToDelCallOpCodeCheckFiller.json",
             "sourceHash": "8dcd57a097f85b00e12106a34300091c09c5caeb16f8fe7428349feae92f8063"
@@ -20,18 +20,23 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x6000600060006000600035620186a0fa60005500",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000001": {
                 "code": "0x6000600060006000731000000000000000000000000000000000000002620186a0f46000526000516001146036576001600155603c565b60016001525b00",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000002": {
                 "code": "0x3273a94f5374fce5edbc8e2a8697c15331677e6ebf0b1460225760026001556028565b60016001525b3373100000000000000000000000000000000000000014604b5760026001556051565b60016001525b30731000000000000000000000000000000000000001146074576002600155607a565b60016001525b34600014608a5760026001556090565b60016001525b00",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

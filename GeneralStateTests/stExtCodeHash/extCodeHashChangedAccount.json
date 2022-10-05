@@ -4,7 +4,7 @@
             "comment": "EXTCODEHASH/EXTCODESIZE of an account before and after changing its nonce, balance and storage",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashChangedAccountFiller.json",
             "sourceHash": "3c975b1db52c63275e6d1b821d0be18259dbe90c29d90003728b94b1690c7cc1"
@@ -19,18 +19,24 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xdeadbeef00000000000000000000000000000000": {
                 "code": "0x73deadbeef000000000000000000000000000000013f60005573deadbeef000000000000000000000000000000013b60015560006000600060006103e873deadbeef0000000000000000000000000000000162010000f15073deadbeef000000000000000000000000000000013f60025573deadbeef000000000000000000000000000000013b6003550000",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xdeadbeef00000000000000000000000000000001": {
                 "code": "0x600060006000f05061123460005500",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xdeadbeef00000000000000000000000000000002": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

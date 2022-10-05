@@ -4,7 +4,7 @@
             "comment": "EXTCODEHASH/EXTCODESIZE of an account created in same transaction",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashNewAccountFiller.json",
             "sourceHash": "78be97c865cd561365d04ec131552a9e8e981c3fada8344ee81e5978381a581e"
@@ -19,11 +19,14 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xdeadbeef00000000000000000000000000000000": {
                 "code": "0x6010600b80602260003960006000f56000526000513f6000556000513b60015500fe61123460005260206000f3",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

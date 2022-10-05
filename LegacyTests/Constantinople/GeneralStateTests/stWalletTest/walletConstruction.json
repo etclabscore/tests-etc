@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stWalletTest/walletConstructionFiller.json",
             "sourceHash": "2535376e7873454e54c01bcb9e6f5cc52ac53526834962b35dfbf215823073a0"
@@ -19,6 +19,7 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
                 "balance": "0xde0b6b3a75ef08f",
                 "nonce": "0x1"
             }

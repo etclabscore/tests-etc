@@ -4,7 +4,7 @@
             "comment": "call with value. call takes more gas then tx has, and more value than account has",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/callWithHighValueAndOOGatTxLevelFiller.json",
             "sourceHash": "cad9bb02357f77254ba1c6362fca81dfda824051cc93c951eb8bc9d91f658583"
@@ -23,14 +23,18 @@
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000000": "0x0000000000000000000000000000000000000000000000000000000000000005"
                 },
-                "balance": "0x186a0"
+                "balance": "0x186a0",
+                "nonce": "0x0"
             },
             "0x945304eb96065b2a98b57a48a06ae28d285a71b5": {
                 "code": "0x6001600155603760005360026000f3",
-                "balance": "0x17"
+                "balance": "0x17",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

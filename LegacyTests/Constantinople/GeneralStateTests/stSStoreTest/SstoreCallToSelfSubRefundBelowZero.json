@@ -4,7 +4,7 @@
             "comment": "Test where accnt has slot 1 value of '2', is cleared, then calls itself and overwrites with '3', causing a refund-deduction in second call context",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSStoreTest/SstoreCallToSelfSubRefundBelowZeroFiller.json",
             "sourceHash": "d714915083bfa4e263426e2b7e738f094874b0991010377c9eb42df84b19b63d"
@@ -19,14 +19,17 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xffffffffffffffff"
+                "code": "0x",
+                "balance": "0xffffffffffffffff",
+                "nonce": "0x0"
             },
             "0xe12d6474ac4964b9f23812bf3375c1fe637ad3b6": {
                 "code": "0x3330146015576000600155600080808080305af1005b600360015500",
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000001": "0x0000000000000000000000000000000000000000000000000000000000000002"
                 },
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

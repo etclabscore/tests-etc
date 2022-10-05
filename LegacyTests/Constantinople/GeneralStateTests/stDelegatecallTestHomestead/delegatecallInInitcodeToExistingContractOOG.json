@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stDelegatecallTestHomestead/delegatecallInInitcodeToExistingContractOOGFiller.json",
             "sourceHash": "7318cc099ea37f447a49104a80488dbb2a44e999851de1b8573b42928cddfdca"
@@ -20,14 +20,18 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x7f604060006040600073945304eb96065b2a98b57a48a06ae28d285a71b56201866000527fa0f4600a5533600b550000000000000000000000000000000000000000000000602052604060006005f0",
-                "balance": "0x2710"
+                "balance": "0x2710",
+                "nonce": "0x0"
             },
             "0x945304eb96065b2a98b57a48a06ae28d285a71b5": {
                 "code": "0x6001600255",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x2386f26fc10000"
+                "code": "0x",
+                "balance": "0x2386f26fc10000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

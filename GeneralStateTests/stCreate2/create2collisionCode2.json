@@ -4,7 +4,7 @@
             "comment": "collision with the contract that already has the same init code that we are about to create",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/create2collisionCode2Filler.json",
             "sourceHash": "27f50ce14d18daeaf7371fb84520dc60d3283082971b835b9bedf9017677cf96"
@@ -19,7 +19,9 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xfce41d047b4a1d4450382dcc29ec7e5fedc5f9a3": {
                 "code": "0x010203",

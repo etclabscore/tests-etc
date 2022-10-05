@@ -4,7 +4,7 @@
             "comment": "DELEGATECALL -\u003e DELEGATECALL2 -\u003e CALLCODE -\u003e DELEGATECALL2 -\u003e ..",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallDelegateCodesCallCodeHomestead/callcodecallcodecall_ABCB_RECURSIVEFiller.json",
             "sourceHash": "e0c395e99f1fcc1fbafa7ebdb5437da3fcb2abd29cdbaee3f74b3e79402135a9"
@@ -20,18 +20,23 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x604060006040600073100000000000000000000000000000000000000163017d7840f4600055",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000001": {
                 "code": "0x6040600060406000731000000000000000000000000000000000000002620f4240f4600155",
-                "balance": "0x2540be400"
+                "balance": "0x2540be400",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000002": {
                 "code": "0x604060006040600060007310000000000000000000000000000000000000016207a120f2600255",
-                "balance": "0x2540be400"
+                "balance": "0x2540be400",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRevertTest/LoopCallsThenRevertFiller.json",
             "sourceHash": "162bacf9b82c37ff8c56742a6447c822a9de09113a3142ceaf07add1cb00a3da"
@@ -23,14 +23,18 @@
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000000": "0x0000000000000000000000000000000000000000000000000000000000000352"
                 },
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a51000"
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             },
             "0xb000000000000000000000000000000000000000": {
                 "code": "0x600054600101600055",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

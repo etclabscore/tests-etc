@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stHomesteadSpecific/contractCreationOOGdontLeaveEmptyContractViaTransactionFiller.json",
             "sourceHash": "dc43729c3ca189e35ba7fcebaf7e73d626f73306b7be63e7aff370d243dbc6cd"
@@ -20,14 +20,18 @@
         "pre": {
             "0x1000000000000000000000000000000000000001": {
                 "code": "0x6001600155",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x10c8e0"
+                "code": "0x",
+                "balance": "0x10c8e0",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x6040600060406000600073100000000000000000000000000000000000000161c350f1",
-                "balance": "0x186a0"
+                "balance": "0x186a0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

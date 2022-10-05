@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stMemExpandingEIP150Calls/OOGinReturnFiller.yml",
             "sourceHash": "56983cae6857edfc95ea303f9eaaa913753f0b0b96a1f7566f2882e89b411187"
@@ -19,19 +19,24 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xba1a9ce0ba1a9ce"
+                "code": "0x",
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0xccccccccccccccccccccccccccccccccccccccc1": {
                 "code": "0x63dead60a76000526101006000f300",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0xccccccccccccccccccccccccccccccccccccccc2": {
                 "code": "0x63dead60a76000526101006000fd00",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0xcccccccccccccccccccccccccccccccccccccccc": {
                 "code": "0x60043561012052602435610140526360a760a760005261010060006000600060006101205173ccccccccccccccccccccccccccccccccccccccc00161014051f16101005260005160005560003d116057576000506060565b602060006101603e5b6101605160015500",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             }
         },
         "transaction": {

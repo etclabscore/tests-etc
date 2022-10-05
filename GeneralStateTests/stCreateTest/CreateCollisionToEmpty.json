@@ -4,7 +4,7 @@
             "comment": "data0 - create collision to empty, data1 - to empty but nonce, data2 - to contract with code",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreateTest/CreateCollisionToEmptyFiller.json",
             "sourceHash": "91423d0acdef5d1793dc957122ed8e84f374ba4118b170f59df23e2260f85955"
@@ -19,34 +19,44 @@
         },
         "pre": {
             "0x0bf4c804e0579073baf54ec4ec37cd04f3455c65": {
+                "code": "0x",
                 "balance": "0x0",
                 "nonce": "0x2"
             },
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x6460016001556000526005601b6000f060015500",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x13136008b64ff592819b2fa6d43f2835c452020e": {
-                "balance": "0x0"
+                "code": "0x",
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1a00000000000000000000000000000000000000": {
                 "code": "0x6000600060006000600060003562013880f100",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x2000000000000000000000000000000000000000": {
                 "code": "0x6460016001556000526005601b6000f060015500",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x3000000000000000000000000000000000000000": {
                 "code": "0x6460016001556000526005601b6000f060015500",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x4b86c4ed99b87f0f396bc0c76885453c343916ed": {
                 "code": "0x1122334455",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a51000"
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

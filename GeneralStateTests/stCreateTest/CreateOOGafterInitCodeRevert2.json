@@ -4,7 +4,7 @@
             "comment": "Calls a contract that runs CREATE which deploy a code. then after deployment and exiting from CREATE a REVERT is called. check the REVERT data in this case equal to RETURN value of CREATE. CREATE fails due to the deployment cost.",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreateTest/CreateOOGafterInitCodeRevert2Filler.json",
             "sourceHash": "e454246dc0b1ab815b554addfeaf8fb04962d26b817822aeb0cf89f261ebf5ac"
@@ -20,28 +20,34 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x600060006000600060006000355af100",
-                "balance": "0xe8d4a51000"
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a51000"
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x6d6460016001556000526005601bf3600052600e60126000f05060206000fd00",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xc94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x6020600060006000600073b94f5374fce5edbc8e2a8697c15331677e6ebf0b6180e8f15060005160015500",
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000001": "0x00000000000000000000000000000000000000000000000000000000000000ff"
                 },
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xd94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x6020600060006000600073b94f5374fce5edbc8e2a8697c15331677e6ebf0b6159d8f15060005160015500",
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000001": "0x00000000000000000000000000000000000000000000000000000000000000ff"
                 },
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

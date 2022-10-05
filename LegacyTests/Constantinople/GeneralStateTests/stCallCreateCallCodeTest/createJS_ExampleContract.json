@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallCreateCallCodeTest/createJS_ExampleContractFiller.json",
             "sourceHash": "78c2aa2684e480803540e6db93c525127da7ec819d62f2d831db09242a832407"
@@ -27,10 +27,13 @@
                     "0x0000000000000000000000000000000000000000000000000000000000000003": "0x000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b",
                     "0x0000000000000000000000000000000000000000000000000000000000000005": "0x0000000000000000000000000000000000000000000000000000000054c98c81"
                 },
-                "balance": "0x186a0"
+                "balance": "0x186a0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x9184e72a000"
+                "code": "0x",
+                "balance": "0x9184e72a000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

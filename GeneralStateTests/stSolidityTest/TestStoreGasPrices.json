@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSolidityTest/TestStoreGasPricesFiller.json",
             "sourceHash": "75bc79950ba1b2c4a91e5d9185317432d15dd126dd740217c77a03a3a8c93fcd"
@@ -20,10 +20,13 @@
         "pre": {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
                 "code": "0x7c01000000000000000000000000000000000000000000000000000000006000350463c04062268114602d57005b6033603d565b8060005260206000f35b600060005a600160205590505a81036000555a600260205590505a81036001555a600260205590505a81036002555a65168aa8d53fe660205590505a81036003555a600260205590505a81036004555a600060205590505a81036005555a5060019291505056",
-                "balance": "0x186a0"
+                "balance": "0x186a0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x746a528800"
+                "code": "0x",
+                "balance": "0x746a528800",
+                "nonce": "0x0"
             }
         },
         "transaction": {

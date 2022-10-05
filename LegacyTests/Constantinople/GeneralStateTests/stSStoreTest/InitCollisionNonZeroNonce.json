@@ -4,7 +4,7 @@
             "comment": "account already has storage X. create -\u003e in init code change that account's storage -\u003e 0 -\u003e change it to X again ",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSStoreTest/InitCollisionNonZeroNonceFiller.json",
             "sourceHash": "813b51796f28510c8b5ef421a0b6ea79d44681832aeb517c1a3f1eab18a3fa21"
@@ -19,6 +19,7 @@
         },
         "pre": {
             "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f": {
+                "code": "0x",
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000001": "0x0000000000000000000000000000000000000000000000000000000000000001"
                 },
@@ -26,6 +27,7 @@
                 "nonce": "0x1"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
                 "balance": "0xe8d4a51000",
                 "nonce": "0x1"
             },
@@ -35,6 +37,7 @@
                 "nonce": "0x1"
             },
             "0xfc597da4849c0d854629216d9e297bbca7bb4616": {
+                "code": "0x",
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000001": "0x0000000000000000000000000000000000000000000000000000000000000001"
                 },

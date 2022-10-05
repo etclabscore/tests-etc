@@ -4,7 +4,7 @@
             "comment": "create2 generates an account that already exists and has balance != 0",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/create2collisionBalanceFiller.json",
             "sourceHash": "2fab2edf308177ecc85c53a384316eba629bd6cf551ffc7658c633b4555937e6"
@@ -19,16 +19,24 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xaf3ecba2fe09a4f6c19f16a9d119e44e08c2da01": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0xe2b35478fdd26477cc576dd906e6277761246a3c": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0xec2c6832d00680ece8ff9254f81fdab0a5a2ac50": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             }
         },
         "transaction": {

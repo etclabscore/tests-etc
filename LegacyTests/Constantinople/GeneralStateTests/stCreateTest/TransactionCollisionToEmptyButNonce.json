@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreateTest/TransactionCollisionToEmptyButNonceFiller.json",
             "sourceHash": "ee79351b79bb5a3c676da6e9c0a2afd03eb05f82e1148932a40c6c14b5f6adb2"
@@ -19,11 +19,14 @@
         },
         "pre": {
             "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f": {
+                "code": "0x",
                 "balance": "0x0",
                 "nonce": "0x1"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a51000"
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

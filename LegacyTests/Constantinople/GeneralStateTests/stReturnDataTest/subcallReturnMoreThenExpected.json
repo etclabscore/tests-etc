@@ -4,7 +4,7 @@
             "comment": "https://github.com/ethereum/tests/issues/558 (subcall/opcode return more data then expected)",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/subcallReturnMoreThenExpectedFiller.yml",
             "sourceHash": "84c08391a9b2e272235e3605d2f15b15c9b6e24d9899929056308347b723cd41"
@@ -20,18 +20,23 @@
         "pre": {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
                 "code": "0x600c600060006000600073194f5374fce5edbc8e2a8697c15331677e6ebf0b62030d40f1506000516000556000600052600c60006000600073194f5374fce5edbc8e2a8697c15331677e6ebf0b62030d40f4506000516001556000600052600c60006000600073194f5374fce5edbc8e2a8697c15331677e6ebf0b62030d40fa506000516002556000600052600c600060006000600073194f5374fce5edbc8e2a8697c15331677e6ebf0b62030d40f2506000516003556000600052600c600060006000600073294f5374fce5edbc8e2a8697c15331677e6ebf0b62030d40f1506000516004556000600052600c60006000600073294f5374fce5edbc8e2a8697c15331677e6ebf0b62030d40f4506000516005556000600052600c60006000600073294f5374fce5edbc8e2a8697c15331677e6ebf0b62030d40fa506000516006556000600052600c600060006000600073294f5374fce5edbc8e2a8697c15331677e6ebf0b62030d40f250600051600755",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0x194f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x7f11223344556677889910111213141516171819202122232425262728293031326000527f333435363738394041424344454647484950515253545556575859606162636460205260406000f3",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0x294f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x7f11223344556677889910111213141516171819202122232425262728293031326000527f333435363738394041424344454647484950515253545556575859606162636460205260406000fd",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

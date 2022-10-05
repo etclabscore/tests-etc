@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stMemoryStressTest/POP_BoundsFiller.json",
             "sourceHash": "a76e9a9d8ed30e97586fb2f3426a596502335e5474b06dc7e706f6352cfa32af"
@@ -20,10 +20,13 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x60005063ffffffff5067ffffffffffffffff506fffffffffffffffffffffffffffffffff507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5000",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x7ffffffffffffffffff"
+                "code": "0x",
+                "balance": "0x7ffffffffffffffffff",
+                "nonce": "0x0"
             }
         },
         "transaction": {

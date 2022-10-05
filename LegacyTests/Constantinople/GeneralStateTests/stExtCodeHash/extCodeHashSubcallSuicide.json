@@ -4,7 +4,7 @@
             "comment": "transaction to B | B call to A | A delegatecall/callcode to C (C has selfdestruct) | A selfdestructed. returned to B. now we could check extcodehash of A (in account B code)",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashSubcallSuicideFiller.yml",
             "sourceHash": "f41b07f575d1f31c88e39d8356289aa1ad061cb335b092c796b933a75fc636a9"
@@ -20,18 +20,23 @@
         "pre": {
             "0xa000000000000000000000000000000000000000": {
                 "code": "0x6020600060006000600073c00000000000000000000000000000000000000062055730f2",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xb000000000000000000000000000000000000000": {
                 "code": "0x73a0000000000000000000000000000000000000003f60015573a0000000000000000000000000000000000000003b60025560206000600073a0000000000000000000000000000000000000003c6000516003556020600060006000600073a00000000000000000000000000000000000000062055730f15073a0000000000000000000000000000000000000003f60045573a0000000000000000000000000000000000000003b60055560206000600073a0000000000000000000000000000000000000003c6000516006556020600060006000600073a00000000000000000000000000000000000000062055730f1600755",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xc000000000000000000000000000000000000000": {
                 "code": "0x73a94f5374fce5edbc8e2a8697c15331677e6ebf0bff",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

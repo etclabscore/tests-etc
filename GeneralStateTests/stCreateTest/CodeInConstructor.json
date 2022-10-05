@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreateTest/CodeInConstructorFiller.yml",
             "sourceHash": "9a9a376768271f30eba3cab5117eaa4859da24f0cc39811407b8f26a842c72dc"
@@ -23,14 +23,18 @@
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000000": "0x0000000000000000000000000000000000000000000000000000000000000001"
                 },
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xba1a9ce0ba1a9ce"
+                "code": "0x",
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             },
             "0xcccccccccccccccccccccccccccccccccccccccc": {
                 "code": "0x60068061004c610100396102005260db8061005260003961022052600160043514603757615a17610200516101000160006000f56045565b610200516101000160006000f05b6102405200fe60ff60005500610100610100610100395861026052600060006020610260600061da7a62fffffff1503061026052600060006020610260600061da7a62fffffff1503861026052600060006020610260600061da7a62fffffff150303b61026052600060006020610260600061da7a62fffffff15060206000610100396101005161026052600060006020610260600061da7a62fffffff15060206000610100303c6101005161026052600060006020610260600061da7a62fffffff1505861026052600060006020610260600061da7a62fffffff1506101003803610100f300",
-                "balance": "0xba1a9ce0ba1a9ce"
+                "balance": "0xba1a9ce0ba1a9ce",
+                "nonce": "0x0"
             }
         },
         "transaction": {

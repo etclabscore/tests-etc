@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/returndatacopy_overrunFiller.json",
             "sourceHash": "ff8599b01174d64b0e1d56c0b82ba31f9ab57019b6e88511c81880202eeecf73"
@@ -20,17 +20,21 @@
         "pre": {
             "0x0aabbccdd5c57f15886f9b263e2f6d2d6c7b5ec6": {
                 "code": "0x7d111122223333444455556666777788889999aaaabbbbccccddddeeeeffff60005260206000f300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6": {
                 "code": "0x60006000600060006000730aabbccdd5c57f15886f9b263e2f6d2d6c7b5ec6640900000000f15060647ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc60003e60005160005500",
                 "storage": {
                     "0x0000000000000000000000000000000000000000000000000000000000000000": "0x0000000000000000000000000000000000000000000000000000000000000001"
                 },
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x6400000000"
+                "code": "0x",
+                "balance": "0x6400000000",
+                "nonce": "0x0"
             }
         },
         "transaction": {
