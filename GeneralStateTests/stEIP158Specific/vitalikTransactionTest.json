@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP158Specific/vitalikTransactionTestFiller.json",
             "sourceHash": "34f6e49e2d6b7363458c31ba1a957655542252aa0836a4b0de284cadfcdaf077"
@@ -19,15 +19,19 @@
         },
         "pre": {
             "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba": {
+                "code": "0x",
                 "balance": "0x0",
                 "nonce": "0x1"
             },
             "0xcd2a3d9f938e13cd947ec05abc7fe734df8dd826": {
+                "code": "0x",
                 "balance": "0xffffffffffffffffffff",
                 "nonce": "0x14f"
             },
             "0xee098e6c2a43d9e2c04f08f0c3a87b0ba59079d4": {
-                "balance": "0x0"
+                "code": "0x",
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

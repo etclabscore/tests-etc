@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stMemoryStressTest/MLOAD_Bounds2Filler.json",
             "sourceHash": "ba34e6e1a95d94b39c895a8d6d872d1d03757a349a2cb03be723755396db204c"
@@ -20,10 +20,13 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x67ffffffffffffffff51506fffffffffffffffffffffffffffffffff51507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff51",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x7ffffffffffffffffff"
+                "code": "0x",
+                "balance": "0x7ffffffffffffffffff",
+                "nonce": "0x0"
             }
         },
         "transaction": {

@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stBugs/returndatacopyPythonBug_Tue_03_48_41-1432Filler.json",
             "sourceHash": "2f784259156194a93ad78e3198027fa884ae39efa11ff947d7cb3d65922e33bb"
@@ -19,7 +19,9 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x38beec8feeca2598"
+                "code": "0x",
+                "balance": "0x38beec8feeca2598",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x7b1db054ccc801c0666b34b3c6242bbfc5e98f20c14fb95e0118be9ad054326f33d50e215ff59297861847ea911a6a9d566103a560a860fb60cb6342a46f5073b94f5374fce5edbc8e2a8697c15331677e6ebf0b632c1e2816f26d135e2f826dc603850e0db21d105b778732a34b873c7d943050b8659794f0bd3e841d35a2231ef6027e97f8cde11728fa2051e87933cf858e4e5e91baa74fc1e9ffe4c7b15ba600e8678f095989dc68f47e67d704be2b41c7f8670a",

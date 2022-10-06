@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSolidityTest/AmbiguousMethodFiller.json",
             "sourceHash": "ce3ae5dd578ea151015bde031df94907e43e07b7cd4ad3c2737d956b43d5f736"
@@ -20,10 +20,13 @@
         "pre": {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
                 "code": "0x60003560e060020a90048063c040622614601557005b601b6021565b60006000f35b61014f60008190555056",
-                "balance": "0x186a0"
+                "balance": "0x186a0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x7a120"
+                "code": "0x",
+                "balance": "0x7a120",
+                "nonce": "0x0"
             }
         },
         "transaction": {

@@ -4,7 +4,7 @@
             "comment": "3) Call creates Account A (0x95ab1c33798981918da6d27056f70376674878d2)\nCall to Account B do the following:\n- stores Account A code hash to 1\n- stores Account A code size to 2\n- stores Account A code to 3\n- Run selfdestruct on A\n- stores Account A code hash to 4\n- stores Account A code size to 5\n- stores Account A code to 6\n",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccount3Filler.yml",
             "sourceHash": "6e002921e44130c0fbb4a13827de2ce649b3198518b0d62e4ae6457fada796d6"
@@ -20,18 +20,23 @@
         "pre": {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
                 "code": "0x6000603d80604060003960006000f56000526000516000556020600060006000600073bbbbbbbb00000000000000000000000000000000620249f0f1500000fe73cccccccc000000000000000000000000000000003b6000526000516000602073cccccccc000000000000000000000000000000003c6000516020f300",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xbbbbbbbb00000000000000000000000000000000": {
                 "code": "0x73554e36262c0e0ab156397c32444e4a018fe93b183f60015573554e36262c0e0ab156397c32444e4a018fe93b183b6002556002546000600073554e36262c0e0ab156397c32444e4a018fe93b183c6000516003556020600060006000600073554e36262c0e0ab156397c32444e4a018fe93b18620249f0f15073554e36262c0e0ab156397c32444e4a018fe93b183f60045573554e36262c0e0ab156397c32444e4a018fe93b183b6005556005546000602073554e36262c0e0ab156397c32444e4a018fe93b183c60205160065500",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xcccccccc00000000000000000000000000000000": {
                 "code": "0x73bbbbbbbb00000000000000000000000000000000ff00",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stStaticCall/static_Call50000_rip160Filler.json",
             "sourceHash": "b2e9465710cd1af7b69abf0dba9ac701233f02bef55a7c6cff2614a69a0d4d81"
@@ -20,18 +20,23 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x6000600060006000346000355af16000555a600155",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xffffffffffffffffffffffffffffffff"
+                "code": "0x",
+                "balance": "0xffffffffffffffffffffffffffffffff",
+                "nonce": "0x0"
             },
             "0xbbbf5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x5b61c3506080511015602b576000600061c3506000600362013178fa6000556001608051016080526000565b608051600155",
-                "balance": "0xfffffffffffff"
+                "balance": "0xfffffffffffff",
+                "nonce": "0x0"
             },
             "0xcccf5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x5b61c3506080511015602b576000600061c3506000600362013178fa6000526001608051016080526000565b608051602052",
-                "balance": "0xfffffffffffff"
+                "balance": "0xfffffffffffff",
+                "nonce": "0x0"
             }
         },
         "transaction": {

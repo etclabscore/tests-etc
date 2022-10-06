@@ -4,7 +4,7 @@
             "comment": "2) Account A already exists in the state and contains code\nCall to Account B stores Account A code hash to 1, code size to 2, code to 3\nCall to Account C runs self destruct on A\nCall to Account B stores Account A code hash to 4, code size to 5, code to 6\n",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccount2Filler.yml",
             "sourceHash": "191ee7c366a6e858abf68a464e08908cc90a31d7fcd11b1c88497ae673c1fc12"
@@ -20,18 +20,23 @@
         "pre": {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
                 "code": "0x60016000526020600060206000600073bbbbbbbb00000000000000000000000000000000620249f0f1506020600060006000600073aaaaaaaa00000000000000000000000000000000620249f0f15060046020526020600060206020600073bbbbbbbb00000000000000000000000000000000620249f0f1",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xaaaaaaaa00000000000000000000000000000000": {
                 "code": "0x73deadbeef0000000000000000000000000000000031ff",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xbbbbbbbb00000000000000000000000000000000": {
                 "code": "0x6020600060003773aaaaaaaa000000000000000000000000000000003f6000515573aaaaaaaa000000000000000000000000000000003b602052600160005101600052602051600051556001600051016000526020516000604073aaaaaaaa000000000000000000000000000000003c60405160005155",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

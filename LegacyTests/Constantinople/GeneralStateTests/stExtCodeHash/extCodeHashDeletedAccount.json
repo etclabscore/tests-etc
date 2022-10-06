@@ -4,7 +4,7 @@
             "comment": "Get account A (aaaaaaaa00000000000000000000000000000000) code hash, code size, and code\nCalls Account A's code which causes self destruction of A\nGet account A codehash, code size and code\nIt is still getting the same values because selfdestruct is performed\nat the end of transaction during state finalization stage.\n",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDeletedAccountFiller.yml",
             "sourceHash": "de0f1886f1cdacc7e13a1cc75e59f413ee9874fe27e73350005758b5c6f46019"
@@ -20,26 +20,33 @@
         "pre": {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87": {
                 "code": "0x6020600060006000600073deadbeef00000000000000000000000000000000620249f0f1506020600060003e6000516000556020600060006000600073deadbeef00000000000000000000000000000001620249f0f1506020600060003e6000516001556020600060006000600073deadbeef00000000000000000000000000000002620249f0f1506020600060003e6000516002556020600060006000600073aaaaaaaa00000000000000000000000000000000620249f0f1506020600060006000600073deadbeef00000000000000000000000000000000620249f0f1506020600060003e6000516003556020600060006000600073deadbeef00000000000000000000000000000001620249f0f1506020600060003e6000516004556020600060006000600073deadbeef00000000000000000000000000000002620249f0f1506020600060003e600051600555",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xaaaaaaaa00000000000000000000000000000000": {
                 "code": "0x73deadbeef00000000000000000000000000000000ff",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xdeadbeef00000000000000000000000000000000": {
                 "code": "0x73aaaaaaaa000000000000000000000000000000003f60005260206000f3",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xdeadbeef00000000000000000000000000000001": {
                 "code": "0x73aaaaaaaa000000000000000000000000000000003b60005260206000f3",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0xdeadbeef00000000000000000000000000000002": {
                 "code": "0x73aaaaaaaa000000000000000000000000000000003b6000600073aaaaaaaa000000000000000000000000000000003c60206000f3",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

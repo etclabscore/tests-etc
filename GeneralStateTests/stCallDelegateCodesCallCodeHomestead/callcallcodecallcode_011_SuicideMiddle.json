@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallDelegateCodesCallCodeHomestead/callcallcodecallcode_011_SuicideMiddleFiller.json",
             "sourceHash": "e5f8850ca8e8da56aaf55961357f502a85f796c1fd05682178cfdd4b913ca9f6"
@@ -20,22 +20,28 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x60406000604060006000731000000000000000000000000000000000000001620249f0f260005500",
-                "balance": "0xde0b6b3a7640000"
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000001": {
                 "code": "0x6040600060406000731000000000000000000000000000000000000002620186a0f460015500",
-                "balance": "0x2540be400"
+                "balance": "0x2540be400",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000002": {
                 "code": "0x731000000000000000000000000000000000000000ff604060006040600073100000000000000000000000000000000000000361c350f460025500",
-                "balance": "0x2540be400"
+                "balance": "0x2540be400",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000003": {
                 "code": "0x600160035500",
-                "balance": "0x2540be400"
+                "balance": "0x2540be400",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

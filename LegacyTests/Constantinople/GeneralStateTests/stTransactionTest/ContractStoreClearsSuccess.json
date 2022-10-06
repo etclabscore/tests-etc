@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stTransactionTest/ContractStoreClearsSuccessFiller.json",
             "sourceHash": "ca91866787dab87cbedf7a8f88dbf3e2f37af934427275c6a5d0f169ade71d8c"
@@ -19,7 +19,9 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x222e0"
+                "code": "0x",
+                "balance": "0x222e0",
+                "nonce": "0x0"
             },
             "0xd2571607e241ecf590ed94b12d87c94babe36db6": {
                 "code": "0x6000600055600060015560006002556000600355600060045560006005556000600655600060075560006008556000600955",
@@ -35,7 +37,8 @@
                     "0x0000000000000000000000000000000000000000000000000000000000000008": "0x000000000000000000000000000000000000000000000000000000000000000c",
                     "0x0000000000000000000000000000000000000000000000000000000000000009": "0x000000000000000000000000000000000000000000000000000000000000000c"
                 },
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

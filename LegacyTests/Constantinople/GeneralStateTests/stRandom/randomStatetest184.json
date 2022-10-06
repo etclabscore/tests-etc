@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRandom/randomStatetest184Filler.json",
             "sourceHash": "98d879817e0ff7a43250e9f4e7b8329f6990a4d46d0c5569b21ae3512466d91e"
@@ -24,11 +24,14 @@
                 "nonce": "0x75"
             },
             "0x945304eb96065b2a98b57a48a06ae28d285a71b5": {
+                "code": "0x",
                 "balance": "0x9740421ff0ff3ae3",
                 "nonce": "0x1d"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x10c1142f2b8e8eb058"
+                "code": "0x",
+                "balance": "0x10c1142f2b8e8eb058",
+                "nonce": "0x0"
             }
         },
         "transaction": {

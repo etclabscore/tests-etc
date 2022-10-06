@@ -4,7 +4,7 @@
             "comment": "Puts the base 49, exponent 2401 and modulus 2401 into the MODEXP precompile, saves the hash of the result. Gives the execution 1000000 gas",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stPreCompiledContracts/modexp_49_2401_2401_1000000Filler.json",
             "sourceHash": "02308509fb3fa2e0f6661e9398d2de0e17c9f05374056b1e9135e1bd4a6f5e51"
@@ -19,33 +19,52 @@
         },
         "pre": {
             "0x0000000000000000000000000000000000000001": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000002": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000003": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000004": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000005": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000006": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000007": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0x0000000000000000000000000000000000000008": {
-                "balance": "0x1"
+                "code": "0x",
+                "balance": "0x1",
+                "nonce": "0x0"
             },
             "0x3535353535353535353535353535353535353535": {
-                "balance": "0x201ee"
+                "code": "0x",
+                "balance": "0x201ee",
+                "nonce": "0x0"
             },
             "0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1": {
+                "code": "0x",
                 "balance": "0xde0b6b3a761fe12",
                 "nonce": "0x1"
             },

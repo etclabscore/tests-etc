@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stStaticCall/static_RETURN_BoundsFiller.json",
             "sourceHash": "4c1c939f625e0aacf145aee212ae2881c76391782627932a7c1dca0bde00dff4"
@@ -20,74 +20,93 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x60006000600060007310000000000000000000000000000000000000016707fffffffffffffffa60015560006000600060007310000000000000000000000000000000000000026707fffffffffffffffa60025560006000600060007310000000000000000000000000000000000000036707fffffffffffffffa60035560006000600060007310000000000000000000000000000000000000046707fffffffffffffffa60045560006000600060007310000000000000000000000000000000000000056707fffffffffffffffa60055560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa60065560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa60075560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa60085560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa60095560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa600a5560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa600b5560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa600c5560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa600d5560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa600e5560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa600f5560006000600060007310000000000000000000000000000000000000066707fffffffffffffffa60105500",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000001": {
                 "code": "0x60006000f300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000002": {
                 "code": "0x6000630ffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000003": {
                 "code": "0x600063fffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000004": {
                 "code": "0x600067fffffffffffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000005": {
                 "code": "0x60006d0ffffffffffffffffffffffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000006": {
                 "code": "0x60007ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000007": {
                 "code": "0x630fffffff6000f300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000008": {
                 "code": "0x63ffffffff6000f300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000009": {
                 "code": "0x67ffffffffffffffff6000f300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000010": {
                 "code": "0x6d0fffffffffffffffffffffffffff6000f300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000011": {
                 "code": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6000f300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000012": {
                 "code": "0x630fffffff630ffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000013": {
                 "code": "0x63ffffffff63fffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000014": {
                 "code": "0x67ffffffffffffffff67fffffffffffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000015": {
                 "code": "0x6d0fffffffffffffffffffffffffff6d0ffffffffffffffffffffffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000016": {
                 "code": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff300",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                "code": "0x",
+                "balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "nonce": "0x0"
             }
         },
         "transaction": {

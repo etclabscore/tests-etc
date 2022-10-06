@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP150singleCodeGasPrices/RawExtCodeCopyGasFiller.json",
             "sourceHash": "bde93b2e40956beeca5c78dd022291ca5140b87f11371f9f6003dd36666d3585"
@@ -20,14 +20,18 @@
         "pre": {
             "0x094f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x0112233445566778899101112131415161718191202122232425",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a51000"
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x5a60005560146000600073094f5374fce5edbc8e2a8697c15331677e6ebf0b3c5a600155",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

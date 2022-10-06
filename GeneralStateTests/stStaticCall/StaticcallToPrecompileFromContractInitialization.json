@@ -4,7 +4,7 @@
             "comment": "STATICCALL to precompiled contracts from contract initialization code.\nIt should execute successfully for each precompiled contract.\n",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stStaticCall/StaticcallToPrecompileFromContractInitializationFiller.yml",
             "sourceHash": "e22cf0cd3652463cfa5b95efece88eb2b005378cf4c52abbb7fbe897d7d11e7b"
@@ -20,10 +20,13 @@
         "pre": {
             "0xa000000000000000000000000000000000000000": {
                 "code": "0x366000600037655a175a175a173660006000f560005500",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xde0b6b3a7640000"
+                "code": "0x",
+                "balance": "0xde0b6b3a7640000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stQuadraticComplexityTest/Call50000_identityFiller.json",
             "sourceHash": "c648e182dbd4f68868a0e694e7ac7362a23926767406ca766c769454ce03b0ea"
@@ -19,11 +19,14 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xffffffffffffffffffffffffffffffff"
+                "code": "0x",
+                "balance": "0xffffffffffffffffffffffffffffffff",
+                "nonce": "0x0"
             },
             "0xbbbf5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x5b61c3506080511015602c576000600061c35060006001600461061cf16000556001608051016080526000565b60805160015500",
-                "balance": "0xfffffffffffff"
+                "balance": "0xfffffffffffff",
+                "nonce": "0x0"
             }
         },
         "transaction": {

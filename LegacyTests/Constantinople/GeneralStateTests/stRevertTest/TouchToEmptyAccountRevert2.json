@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRevertTest/TouchToEmptyAccountRevert2Filler.json",
             "sourceHash": "58f3f6cc53481d5ea9bb80fa528e81dbe255424664c1a8a70ec46909200b1f12"
@@ -19,18 +19,24 @@
         },
         "pre": {
             "0x1000000000000000000000000000000000000000": {
-                "balance": "0x0"
+                "code": "0x",
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a51000"
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x60006000600060006000731000000000000000000000000000000000000000617530f16002556001600355",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xba4f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x60006000600060006000731000000000000000000000000000000000000000617530f16000556000600060006000600073b94f5374fce5edbc8e2a8697c15331677e6ebf0b617530f1600155",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

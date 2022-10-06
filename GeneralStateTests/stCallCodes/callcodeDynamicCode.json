@@ -4,7 +4,7 @@
             "comment": "callcode to a contract that is being created in the same transaction",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCallCodes/callcodeDynamicCodeFiller.json",
             "sourceHash": "27b9b90fbbec2738072b495cc82278a88b9b6183881eb2c99e10bbd4c60ca152"
@@ -20,26 +20,33 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x601f80602760003960006000f0600a5560406000604060006000600a54620186a0f2600b5500fe601280600d6000396000f300fe600160005530601455326015553360165500",
-                "balance": "0x2710"
+                "balance": "0x2710",
+                "nonce": "0x0"
             },
             "0x1100000000000000000000000000000000000000": {
                 "code": "0x60006000600060006000600035620c3500f100",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x2000000000000000000000000000000000000000": {
                 "code": "0x6000601f80602960003960006000f5600a5560406000604060006000600a54620186a0f2600b5500fe601280600d6000396000f300fe600160005530601455326015553360165500",
-                "balance": "0x3e8"
+                "balance": "0x3e8",
+                "nonce": "0x0"
             },
             "0x3000000000000000000000000000000000000000": {
                 "code": "0x604680600f60003960006000f000fe601f80602760003960006000f0600a5560406000604060006000600a54620186a0f2600b5500fe601280600d6000396000f300fe600160005530601455326015553360165500",
-                "balance": "0x2710"
+                "balance": "0x2710",
+                "nonce": "0x0"
             },
             "0x4000000000000000000000000000000000000000": {
                 "code": "0x604880600f60003960006000f000fe6000601f80602960003960006000f5600a5560406000604060006000600a54620186a0f2600b5500fe601280600d6000396000f300fe600160005530601455326015553360165500",
-                "balance": "0x2710"
+                "balance": "0x2710",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x2386f26fc10000"
+                "code": "0x",
+                "balance": "0x2386f26fc10000",
+                "nonce": "0x0"
             }
         },
         "transaction": {

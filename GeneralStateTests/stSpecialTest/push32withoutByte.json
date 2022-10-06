@@ -4,7 +4,7 @@
             "comment": "push expect 32 bytes. but we have only 10 byte",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSpecialTest/push32withoutByteFiller.json",
             "sourceHash": "376f0cda83a57da026382b3ed21d4da4d0078d3a57ca58126cacf9a9b0a9b7e7"
@@ -20,9 +20,11 @@
         "pre": {
             "0x0dc02922f33e45537411b9f92a1dcc9750ba9932": {
                 "code": "0x7f11223344556677889910",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
                 "balance": "0x8ac7230489e80000",
                 "nonce": "0x1"
             }

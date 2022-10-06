@@ -4,7 +4,7 @@
             "comment": "Geth Failed this test on Frontier and Homestead",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stRandom2/randomStatetest645Filler.json",
             "sourceHash": "894eec7aa2e92e3e2c6754d7e1cb0571492d07a79474dc8e6e86cb6aacd45881"
@@ -24,7 +24,9 @@
                 "nonce": "0x1d"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0x6f1f70fea641f30a"
+                "code": "0x",
+                "balance": "0x6f1f70fea641f30a",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x63cbb01282621d72de5268022948f746c938a0cb7c01ef17f23ed237d9f3262c4eb1b95112820595b127c516074df06223db7e0c396eb18074f148d96fd766dda35b6cc250661b5f83f0ed625ba68a5ff49aa1",
@@ -32,6 +34,7 @@
                 "nonce": "0xaf"
             },
             "0xffffffffffffffffffffffffffffffffffffffff": {
+                "code": "0x",
                 "balance": "0xb3508c0f8a22f8a1",
                 "nonce": "0x1c"
             }

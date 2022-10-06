@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP158Specific/EXP_EmptyFiller.json",
             "sourceHash": "8ac9388a4814407f62421867ecbb2d48d3d4a17d2234c5daa1ee86010bc50de7"
@@ -19,11 +19,14 @@
         },
         "pre": {
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xe8d4a51000"
+                "code": "0x",
+                "balance": "0xe8d4a51000",
+                "nonce": "0x0"
             },
             "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
                 "code": "0x5a600055600c60000a6001555a6002556000600c0a6003555a60045567ffffffffffffffff60000a6005555a6006556fffffffffffffffffffffffffffffffff60000a6007555a6008557fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff60000a6009555a600a55600067ffffffffffffffff0a600b555a600c5560006fffffffffffffffffffffffffffffffff0a600d555a600e5560007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0a600f555a606455",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             }
         },
         "transaction": {

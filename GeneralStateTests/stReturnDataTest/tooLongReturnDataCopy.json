@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz   qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-2dfa4bcf-20220121",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.1b89e144.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.14-develop.2022.1.23+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/tooLongReturnDataCopyFiller.yml",
             "sourceHash": "e1edb38fc814d294d0e210786a22a9e52e1c4466049eff95a26551c7862ca7ac",
@@ -55,6 +55,7 @@
                 "nonce": "0x1"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "code": "0x",
                 "balance": "0x3635c9adc5dea00000",
                 "nonce": "0x1"
             },

@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-d64998ce9b05f4f41b35740c69c4b402e41a3105",
+            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stMemoryStressTest/CALLCODE_BoundsFiller.json",
             "sourceHash": "3dc73421912d0af15e1272cde5f7480c6305f1ae00dbcbd07924586567c9744d"
@@ -20,14 +20,18 @@
         "pre": {
             "0x1000000000000000000000000000000000000000": {
                 "code": "0x600060006000600060007310000000000000000000000000000000000000016707fffffffffffffff250630fffffff6000630fffffff600060007310000000000000000000000000000000000000016707fffffffffffffff25063ffffffff600063ffffffff600060007310000000000000000000000000000000000000016707fffffffffffffff2506000630fffffff6000630fffffff60007310000000000000000000000000000000000000016707fffffffffffffff250600063ffffffff600063ffffffff60007310000000000000000000000000000000000000016707fffffffffffffff250600067ffffffffffffffff600067ffffffffffffffff60007310000000000000000000000000000000000000016707fffffffffffffff25060006fffffffffffffffffffffffffffffffff60006fffffffffffffffffffffffffffffffff60007310000000000000000000000000000000000000016707fffffffffffffff25060007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff60007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff60007310000000000000000000000000000000000000016707fffffffffffffff2",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0x1000000000000000000000000000000000000001": {
                 "code": "0x600054600101600055",
-                "balance": "0x0"
+                "balance": "0x0",
+                "nonce": "0x0"
             },
             "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-                "balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                "code": "0x",
+                "balance": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "nonce": "0x0"
             }
         },
         "transaction": {
