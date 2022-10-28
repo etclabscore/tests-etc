@@ -4,7 +4,7 @@
             "comment": "A test shows basefee transaction example",
             "filling-rpc-server": "evm version 1.10.16-unstable-2dfa4bcf-20220121",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.1b89e144.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
             "lllcversion": "Version: 0.5.14-develop.2022.1.23+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExample/basefeeExampleFiller.yml",
             "sourceHash": "04505a6b2b5f39d0386f5410b6e404897e85e0d117fe2cbe9824a04617796e12",

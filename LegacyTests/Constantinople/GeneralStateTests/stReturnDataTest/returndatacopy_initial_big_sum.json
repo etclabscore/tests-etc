@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stReturnDataTest/returndatacopy_initial_big_sumFiller.json",
             "sourceHash": "5dacb53dd8f28094826a2f73b8cdb9504b60eb7dc05efcb90d4d5f7a1c7e4e28"

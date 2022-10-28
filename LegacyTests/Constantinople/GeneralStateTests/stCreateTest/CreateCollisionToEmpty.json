@@ -4,7 +4,7 @@
             "comment": "data0 - create collision to empty, data1 - to empty but nonce, data2 - to contract with code",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreateTest/CreateCollisionToEmptyFiller.json",
             "sourceHash": "5f8a00a98e723522ecc9afe72feb896d9924dbd82736e28fe7a4c85ab683e054"

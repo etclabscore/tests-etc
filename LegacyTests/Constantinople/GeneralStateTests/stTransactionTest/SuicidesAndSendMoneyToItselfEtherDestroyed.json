@@ -4,7 +4,7 @@
             "comment": "",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stTransactionTest/SuicidesAndSendMoneyToItselfEtherDestroyedFiller.json",
             "sourceHash": "c48e8b8d711c36be5d3619c76e15a49b003225e74665fee87ca6ce73a5ef2f89"

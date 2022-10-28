@@ -4,7 +4,7 @@
             "comment": "Check opcode values in create2 init code. Create2 called with different call types. CREATE2 inside CRETE2 inside CALL, CALLCODE, DELEGATECALL, STATICCALL \u003c\u003c test values of  SENDER,address and so on.",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stCreate2/create2checkFieldsInInitcodeFiller.json",
             "sourceHash": "48b55d7f1deb067d6bc51ab82433ec821b0e4d75a20855ddd84ee16e0798fcdd"

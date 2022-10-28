@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP1559/outOfFundsOldTypesFiller.yml",
             "sourceHash": "f5cc66f92c22f6ec702ad2689c9ace453184f426f62ee6ced2eaf9acbca5f068"
@@ -109,9 +109,10 @@
                     }
                 },
                 {
-                    "hash": "0e951c5a77ddfd9319a0277497966c19827cabaa174008deb87e2bed0ad3b948",
+                    "hash": "cfc3199ebc66e160f6c10c5f832d563ce9fefd9440928848256b7606f2e92972",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x01f86601018502540be400829c4094cccccccccccccccccccccccccccccccccccccccc8001c001a09f90bf844a0d5745f33e463a202ce49615e18de09afb50680a07b5b8b91dfba9a06df8c01637adc9a85b854e985c09066a5a7e7634afe00c7b070bd02f37b8dfc8",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
                     "indexes": {
                         "data": 1,
                         "gas": 1,

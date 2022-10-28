@@ -4,7 +4,7 @@
             "comment": "A modification of stRevertTests/RevertInCreateInInit.  That test, for EIP158 only, accidentially tested the case where a contract creation transaction touches an empty account and then fails.  This one tests the same thing not just for EIP158 but any network thereafter.",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stSpecialTest/FailedCreateRevertsDeletionFiller.json",
             "sourceHash": "8c2686f7cfeabc12d4c0f8190937e04afbd49ee4715a0d9313076dfcea689c3b"

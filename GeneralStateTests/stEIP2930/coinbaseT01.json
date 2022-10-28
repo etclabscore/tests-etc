@@ -4,7 +4,7 @@
             "comment": "Ori Pomerantz qbzzt1@gmail.com",
             "filling-rpc-server": "evm version 1.10.16-unstable-0f893109-20220105",
             "filling-tool-version": "retesteth-0.2.2-testinfo+commit.01c6aac2.Linux.g++",
-            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
             "lllcversion": "Version: 0.5.14-develop.2021.11.27+commit.401d5358.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stEIP2930/coinbaseT01Filler.yml",
             "sourceHash": "2734d937139193adbe3001b8b03250155382bec457fc9c3167df8b04a613712c",
@@ -78,6 +78,7 @@
                     "hash": "aa0e374f55a8479bbd3da47ca81a022021c0dff6ad6114365ca285f46f83a1bd",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x01f8a001018203e88402625a0094000000000000000000000000000000000000c0de80a4693c61390000000000000000000000000000000000000000000000000000000000000000d7d694000000000000000000000000000000000000ba5ec080a08997fab173d7bd66a2ab6d24b6611574d1399451748ebbeaa0b326eca7cc6837a01c9105bd8e3aed1138ed54d00154cd61f3e70dd70dd89752f5d62d8f18daa0e6",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
                     "indexes": {
                         "data": 1,
                         "gas": 0,
@@ -98,6 +99,7 @@
                     "hash": "7f1d8c0a85f5bddb9daa97f41c510d0916fe7aa5b925fb5b76c2b93a3aef2a80",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x01f8a001018203e88402625a0094000000000000000000000000000000000000c0de80a4693c61390000000000000000000000000000000000000000000000000000000000000000d7d694000000000000000000000000000000000000ba5ac080a09ff9722ebee09bdcfbbf66eaab3aef0d4122ca12efd426c8bff1b51d2ad82f2fa04945da1ff7e521a6c48b44518a922b2fe360e5f2fe1dd8dc051707afa7bd0fc8",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
                     "indexes": {
                         "data": 2,
                         "gas": 0,
@@ -107,9 +109,10 @@
             ],
             "ETC_Mystique": [
                 {
-                    "hash": "aa0e374f55a8479bbd3da47ca81a022021c0dff6ad6114365ca285f46f83a1bd",
+                    "hash": "da8d7be608876d9a482b6c66c490dbfc48d6472445d859438041f2c09d575b7d",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x01f8a001018203e88402625a0094000000000000000000000000000000000000c0de80a4693c61390000000000000000000000000000000000000000000000000000000000000000d7d694000000000000000000000000000000000000ba5ec080a08997fab173d7bd66a2ab6d24b6611574d1399451748ebbeaa0b326eca7cc6837a01c9105bd8e3aed1138ed54d00154cd61f3e70dd70dd89752f5d62d8f18daa0e6",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
                     "indexes": {
                         "data": 1,
                         "gas": 0,
@@ -127,9 +130,10 @@
                     }
                 },
                 {
-                    "hash": "7f1d8c0a85f5bddb9daa97f41c510d0916fe7aa5b925fb5b76c2b93a3aef2a80",
+                    "hash": "bc6466d8570ac51a197fa968816e2522abda83234526ba277a34ab7aa70282d1",
                     "logs": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
                     "txbytes": "0x01f8a001018203e88402625a0094000000000000000000000000000000000000c0de80a4693c61390000000000000000000000000000000000000000000000000000000000000000d7d694000000000000000000000000000000000000ba5ac080a09ff9722ebee09bdcfbbf66eaab3aef0d4122ca12efd426c8bff1b51d2ad82f2fa04945da1ff7e521a6c48b44518a922b2fe360e5f2fe1dd8dc051707afa7bd0fc8",
+                    "expectException": "invalid chain id for signer: want: 61, got: 1",
                     "indexes": {
                         "data": 2,
                         "gas": 0,

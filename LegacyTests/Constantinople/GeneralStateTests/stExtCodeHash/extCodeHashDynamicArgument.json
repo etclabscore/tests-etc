@@ -4,7 +4,7 @@
             "comment": "EXTCODEHASH/EXTCODESIZE with address from a dynamic argument",
             "filling-rpc-server": "",
             "filling-tool-version": "",
-            "filledWith": "CoreGeth-1.12.9-unstable-4cf5b2b0837228e7d5eadba6a01ffb80e9288e21",
+            "filledWith": "CoreGeth-1.12.9-unstable-d390462df9df233b60b4cd7a37db5b3043832022",
             "lllcversion": "Version: 0.5.0-develop.2018.11.9+commit.9709dfe0.Linux.g++",
             "source": "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashDynamicArgumentFiller.json",
             "sourceHash": "c0fa27ac6de0519b0e715e14ab8e17929c52cb38fb761a29e058046c896a7ab4"
